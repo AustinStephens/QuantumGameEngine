@@ -15,9 +15,11 @@
     <ClInclude Include="src\Quantum\Application.h" />
     <ClInclude Include="src\Quantum\Core.h" />
     <ClInclude Include="src\Quantum\EntryPoint.h" />
+    <ClInclude Include="src\Quantum\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Quantum\Application.cpp" />
+    <ClCompile Include="src\Quantum\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -65,6 +67,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>QT_PLATFORM_WINDOWS;QT_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)QuantumEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -75,6 +78,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>QT_PLATFORM_WINDOWS;QT_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)QuantumEngine\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

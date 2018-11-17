@@ -1,0 +1,3 @@
+[submodule "QuantumEngine/vendor/spdlog"]
+	path = QuantumEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

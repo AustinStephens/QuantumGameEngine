@@ -10,6 +10,11 @@ workspace "QuantumEngine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "QuantumEngine/vendor/GLFW/include"
+
+include "QuantumEngine/vendor/GLFW"
+
 project "QuantumEngine"
 	location "QuantumEngine"
 	kind "SharedLib"
@@ -17,6 +22,9 @@ project "QuantumEngine"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	
+	pchheader "qtpch.h"
+	pchsource "QuantumEngine/src/qtpch.cpp"
 
 	files
 	{
@@ -26,7 +34,15 @@ project "QuantumEngine"
 
 	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/src",
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+	
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"

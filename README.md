@@ -2,7 +2,7 @@
 Game Engine made in C++
 
 Plans:
-Finished Rendering Engine (ability to use any graphics API)
+Finished Rendering Engine (ability to use any graphics API, initially using OpenGL)
 Visual Editor made with ImGUI
 File IO and Asset Pipeline
 API for Scripting (probably C#), Add Features like Tags, Layers, Physics, Scene Files, Prefabs, Raycasting, ect

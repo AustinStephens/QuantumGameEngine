@@ -9,4 +9,4 @@ API for Scripting (probably C#), Add Features like Tags, Layers, Physics, Scene 
 UI System
 Particle System
 Game Editor and/or Level Editor
-Exporting System (Ability to export to Mac, Linux, Xbox, Playstation, iOS, Android, WebGL, possibly more)
+Exporting System (Ability to export to Mac, Linux, Xbox, Playstation, iOS, Android, WebGL, and possibly more)

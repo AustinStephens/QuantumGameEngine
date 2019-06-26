@@ -6,9 +6,7 @@ extern Quantum::Application* Quantum::CreateApplication();
 
 int main(int argc, char** argv) {
 	Quantum::Log::Init();
-	QT_CORE_WARN("init");
-	int a = 5;
-	QT_INFO("Init Var={0}", a);
+	QT_CORE_WARN("init"); 
 	auto app = Quantum::CreateApplication();
 	app->Run();
 	delete app;

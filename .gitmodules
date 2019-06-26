@@ -7,3 +7,9 @@
 [submodule "QuantumEngine/vendor/GLFW"]
 	path = QuantumEngine/vendor/GLFW
 	url = https://github.com/TheCherno/GLFW
+[submodule "Quantum/vendor/imgui"]
+	path = Quantum/vendor/imgui
+	url = https://github.com/TheCherno/imgui
+[submodule "QuantumEngine/vendor/imgui"]
+	path = QuantumEngine/vendor/imgui
+	url = https://github.com/TheCherno/imgui

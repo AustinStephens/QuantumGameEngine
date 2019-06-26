@@ -1,8 +1,8 @@
 #pragma once
 
 #include "Quantum/Window.h"
-
-#include <GLFW/glfw3.h>
+#include "Quantum/Renderer/GraphicsContext.h"
+#include "GLFW/glfw3.h"
 
 namespace Quantum {
 
@@ -11,6 +11,7 @@ namespace Quantum {
 		virtual void Init(const WindowProps& props);
 		virtual void Shutdown();
 		GLFWwindow* m_Window;
+		GraphicsContext* m_Context;
 
 		struct WindowData
 		{
@@ -34,6 +35,8 @@ namespace Quantum {
 		// Window attributes
 		inline void SetEventCallback(const EventCallbackFn& callback) override { m_Data.EventCallback = callback; }
 		void SetVSync(bool enabled) override;
-		bool IsVSync() const override;		
+		bool IsVSync() const override;	
+
+		inline virtual void* GetNativeWindow() const { return m_Window; }
 	};
 }

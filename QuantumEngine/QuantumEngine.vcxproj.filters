@@ -28,12 +28,6 @@
       <Filter>Platform\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\Quantum.h" />
-    <ClInclude Include="src\Quantum\Application.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Quantum\Core.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
     <ClInclude Include="src\Quantum\EntryPoint.h">
       <Filter>Quantum</Filter>
     </ClInclude>
@@ -52,21 +46,6 @@
     <ClInclude Include="src\Quantum\ImGui\ImGuiLayer.h">
       <Filter>Quantum\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="src\Quantum\Input.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Quantum\KeyCodes.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Quantum\Layer.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Quantum\LayerStack.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Quantum\Log.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
     <ClInclude Include="src\Quantum\Math\Matrix4.h">
       <Filter>Quantum\Math</Filter>
     </ClInclude>
@@ -79,12 +58,6 @@
     <ClInclude Include="src\Quantum\Math\Vector3.h">
       <Filter>Quantum\Math</Filter>
     </ClInclude>
-    <ClInclude Include="src\Quantum\MouseButtonCodes.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Quantum\Window.h">
-      <Filter>Quantum</Filter>
-    </ClInclude>
     <ClInclude Include="src\qtpch.h" />
     <ClInclude Include="src\Quantum\Renderer\GraphicsContext.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLContext.h" />
@@ -94,6 +67,33 @@
     <ClInclude Include="src\Platform\OpenGL\OpenGLBuffer.h" />
     <ClInclude Include="src\Quantum\Renderer\VertexArray.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLVertexArray.h" />
+    <ClInclude Include="src\Quantum\Core\Application.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\Core.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\Input.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\KeyCodes.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\Layer.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\LayerStack.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\Log.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\MouseButtonCodes.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Quantum\Core\Window.h">
+      <Filter>Quantum</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Platform\Windows\WindowsInput.cpp">
@@ -102,23 +102,11 @@
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
       <Filter>Platform\Windows</Filter>
     </ClCompile>
-    <ClCompile Include="src\Quantum\Application.cpp">
-      <Filter>Quantum</Filter>
-    </ClCompile>
     <ClCompile Include="src\Quantum\ImGui\ImGuiBuild.cpp">
       <Filter>Quantum\ImGui</Filter>
     </ClCompile>
     <ClCompile Include="src\Quantum\ImGui\ImGuiLayer.cpp">
       <Filter>Quantum\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Quantum\Layer.cpp">
-      <Filter>Quantum</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Quantum\LayerStack.cpp">
-      <Filter>Quantum</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Quantum\Log.cpp">
-      <Filter>Quantum</Filter>
     </ClCompile>
     <ClCompile Include="src\qtpch.cpp" />
     <ClCompile Include="src\Platform\OpenGL\OpenGLContext.cpp" />
@@ -128,5 +116,17 @@
     <ClCompile Include="src\Platform\OpenGL\OpenGLBuffer.cpp" />
     <ClCompile Include="src\Quantum\Renderer\VertexArray.cpp" />
     <ClCompile Include="src\Platform\OpenGL\OpenGLVertexArraycpp.cpp" />
+    <ClCompile Include="src\Quantum\Core\Application.cpp">
+      <Filter>Quantum</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quantum\Core\Layer.cpp">
+      <Filter>Quantum</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quantum\Core\LayerStack.cpp">
+      <Filter>Quantum</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Quantum\Core\Log.cpp">
+      <Filter>Quantum</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

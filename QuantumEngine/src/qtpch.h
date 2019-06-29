@@ -12,7 +12,7 @@
 #include <unordered_map>
 #include <unordered_set>
 
-#include "Quantum\Log.h"
+#include "Quantum\Core\Log.h"
 
 #ifdef QT_PLATFORM_WINDOWS
 	#include <Windows.h>

@@ -1,9 +1,9 @@
 #include "qtpch.h"
 #include "Application.h"
-#include "Events/KeyEvent.h"
-#include "Events/MouseEvent.h"
+#include "Quantum/Events/KeyEvent.h"
+#include "Quantum/Events/MouseEvent.h"
 #include "Input.h"
-#include "Math/Vector2.h"
+#include "Quantum/Math/Vector2.h"
 
 #include <GLAD/glad.h>
 

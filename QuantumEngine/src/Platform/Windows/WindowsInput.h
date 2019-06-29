@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Quantum/Input.h"
+#include "Quantum/Core/Input.h"
 
 namespace Quantum {
 

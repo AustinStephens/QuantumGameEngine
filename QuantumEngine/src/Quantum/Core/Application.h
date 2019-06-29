@@ -1,10 +1,10 @@
 #pragma once
 
 #include "Core.h"
-#include "Events/Event.h"
-#include "Events/ApplicationEvent.h"
+#include "Quantum/Events/Event.h"
+#include "Quantum/Events/ApplicationEvent.h"
 #include "Window.h"
-#include "Quantum/LayerStack.h"
+#include "Quantum/Core/LayerStack.h"
 #include "Quantum/Events/Event.h"
 #include "Quantum/Events/ApplicationEvent.h"
 #include "Quantum/ImGui/ImGuiLayer.h"

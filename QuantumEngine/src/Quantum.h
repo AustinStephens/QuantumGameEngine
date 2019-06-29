@@ -2,13 +2,13 @@
 
 // Only to be used by Quantum Applications
 
-#include "Quantum\Application.h"
-#include "Quantum\Layer.h"
-#include "Quantum\Log.h"
+#include "Quantum\Core\Application.h"
+#include "Quantum\Core\Layer.h"
+#include "Quantum\Core\Log.h"
 
-#include "Quantum\Input.h"
-#include "Quantum\KeyCodes.h"
-#include "Quantum\MouseButtonCodes.h"
+#include "Quantum\Core\Input.h"
+#include "Quantum\Core\KeyCodes.h"
+#include "Quantum\Core\MouseButtonCodes.h"
 
 #include "Quantum\ImGui\ImGuiLayer.h"
 

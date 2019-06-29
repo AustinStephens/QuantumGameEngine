@@ -149,30 +149,30 @@
     <ClInclude Include="src\Platform\Windows\WindowsInput.h" />
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\Quantum.h" />
-    <ClInclude Include="src\Quantum\Application.h" />
-    <ClInclude Include="src\Quantum\Core.h" />
+    <ClInclude Include="src\Quantum\Core\Application.h" />
+    <ClInclude Include="src\Quantum\Core\Core.h" />
     <ClInclude Include="src\Quantum\EntryPoint.h" />
     <ClInclude Include="src\Quantum\Events\ApplicationEvent.h" />
     <ClInclude Include="src\Quantum\Events\Event.h" />
     <ClInclude Include="src\Quantum\Events\KeyEvent.h" />
     <ClInclude Include="src\Quantum\Events\MouseEvent.h" />
     <ClInclude Include="src\Quantum\ImGui\ImGuiLayer.h" />
-    <ClInclude Include="src\Quantum\Input.h" />
-    <ClInclude Include="src\Quantum\KeyCodes.h" />
-    <ClInclude Include="src\Quantum\Layer.h" />
-    <ClInclude Include="src\Quantum\LayerStack.h" />
-    <ClInclude Include="src\Quantum\Log.h" />
+    <ClInclude Include="src\Quantum\Core\Input.h" />
+    <ClInclude Include="src\Quantum\Core\KeyCodes.h" />
+    <ClInclude Include="src\Quantum\Core\Layer.h" />
+    <ClInclude Include="src\Quantum\Core\LayerStack.h" />
+    <ClInclude Include="src\Quantum\Core\Log.h" />
     <ClInclude Include="src\Quantum\Math\Matrix4.h" />
     <ClInclude Include="src\Quantum\Math\Quaternion.h" />
     <ClInclude Include="src\Quantum\Math\Vector2.h" />
     <ClInclude Include="src\Quantum\Math\Vector3.h" />
-    <ClInclude Include="src\Quantum\MouseButtonCodes.h" />
+    <ClInclude Include="src\Quantum\Core\MouseButtonCodes.h" />
     <ClInclude Include="src\Quantum\Renderer\Buffer.h" />
     <ClInclude Include="src\Quantum\Renderer\GraphicsContext.h" />
     <ClInclude Include="src\Quantum\Renderer\Renderer.h" />
     <ClInclude Include="src\Quantum\Renderer\Shader.h" />
     <ClInclude Include="src\Quantum\Renderer\VertexArray.h" />
-    <ClInclude Include="src\Quantum\Window.h" />
+    <ClInclude Include="src\Quantum\Core\Window.h" />
     <ClInclude Include="src\qtpch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -181,12 +181,12 @@
     <ClCompile Include="src\Platform\OpenGL\OpenGLVertexArraycpp.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsInput.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
-    <ClCompile Include="src\Quantum\Application.cpp" />
+    <ClCompile Include="src\Quantum\Core\Application.cpp" />
     <ClCompile Include="src\Quantum\ImGui\ImGuiBuild.cpp" />
     <ClCompile Include="src\Quantum\ImGui\ImGuiLayer.cpp" />
-    <ClCompile Include="src\Quantum\Layer.cpp" />
-    <ClCompile Include="src\Quantum\LayerStack.cpp" />
-    <ClCompile Include="src\Quantum\Log.cpp" />
+    <ClCompile Include="src\Quantum\Core\Layer.cpp" />
+    <ClCompile Include="src\Quantum\Core\LayerStack.cpp" />
+    <ClCompile Include="src\Quantum\Core\Log.cpp" />
     <ClCompile Include="src\qtpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

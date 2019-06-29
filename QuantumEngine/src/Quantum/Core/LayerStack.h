@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Quantum/Core.h"
+#include "Quantum/Core/Core.h"
 #include "Layer.h"
 
 #include <vector>

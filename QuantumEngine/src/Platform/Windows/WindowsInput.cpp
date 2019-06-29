@@ -1,7 +1,7 @@
 #include "qtpch.h"
 #include "WindowsInput.h"
 
-#include "Quantum/Application.h"
+#include "Quantum/Core/Application.h"
 #include <GLFW/glfw3.h>
 
 namespace Quantum {
